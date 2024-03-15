@@ -12,15 +12,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecyleViewRenderingPeoject"
         tools:targetApi="31">
+        <activity android:name=".OnboardingProjectScreen"
+            android:exported="true"
+            android:label="@string/app_name"
+            >
+                        <intent-filter>
+                            <action android:name="android.intent.action.MAIN" />
+
+                            <category android:name="android.intent.category.LAUNCHER" />
+                        </intent-filter>
+        </activity>
+        <activity android:name=".PerformantListScreen"
+            android:exported="true"
+            android:label="@string/app_name"
+            >
+        </activity>
         <activity android:name=".ListMessage"
             android:exported="true"
             android:label="@string/app_name"
             >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
         <activity android:name=".MaterialDesign"
             android:exported="true"
