@@ -71,7 +71,7 @@ fun OnBoardingScreen(
         Spacer(modifier = modifier.height(7.dp))
         ElevatedButton(
             onClick =  onButtonClicked,
-            modifier= Modifier.padding(all = 8.dp)
+            modifier= Modifier.padding(all = 8.dp),
         ) {
             Text(text = "Continue")
         }
